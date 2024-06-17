@@ -1,4 +1,7 @@
 # ETC
+
+The code repository for the accepted paper of VLDB 24: 'ETC: Efficient Training of Temporal Graph Neural Networks over Large-scale Dynamic Graphs'.
+
 ## Requirements
 - python >= 3.6.13
 - pytorch >= 1.8.1
@@ -11,7 +14,7 @@
 - g++ >= 7.5.0
 - openmp >= 201511
 
-Compile C++ temporal sampler first with the following command
+Compile C++ temporal sampler (inherited from TGL) first with the following command
 > python setup.py build_ext --inplace
 
 ## Datasets
